@@ -710,6 +710,259 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Operational:NJM4580"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NJM4580"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NJM4580_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NJM4580_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NJM4580_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_B"
 			(pin_names
 				(offset 1.016)
@@ -2971,6 +3224,102 @@
 				)
 			)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 256.54 29.21)
@@ -3019,6 +3368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "572b9a77-8164-4c0e-8ab1-6145e9916585")
+	)
+	(junction
+		(at 22.86 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60772463-4d67-450a-a4d1-d1e89ee338c4")
 	)
 	(junction
 		(at 106.68 50.8)
@@ -3340,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 115.57) (xy 22.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41828fb7-3a23-41d7-9649-581c6bc5d385")
+	)
+	(wire
+		(pts
 			(xy 106.68 50.8) (xy 119.38 50.8)
 		)
 		(stroke
@@ -3367,6 +3732,16 @@
 			(type default)
 		)
 		(uuid "504e525b-2909-42b2-82c3-dbc55d00c986")
+	)
+	(wire
+		(pts
+			(xy 22.86 138.43) (xy 22.86 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e00d64-0ecb-43a2-bed3-e7acac878bb6")
 	)
 	(wire
 		(pts
@@ -3640,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 125.73) (xy 22.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3fcc61-c526-49a9-a24a-6bffbe37ca04")
+	)
+	(wire
+		(pts
 			(xy 100.33 36.83) (xy 106.68 36.83)
 		)
 		(stroke
@@ -3757,6 +4142,16 @@
 			(type default)
 		)
 		(uuid "d35f5354-dff3-4986-bd1d-6a8950e4da0e")
+	)
+	(wire
+		(pts
+			(xy 22.86 127) (xy 22.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6325262-5e72-483d-8630-f683c1c32188")
 	)
 	(wire
 		(pts
@@ -4794,6 +5189,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NJM4580")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2491cb1b-1acf-4466-a8ce-20c8734b0a48")
+		(property "Reference" "U2"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM4580"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ff4d3b0-2ab5-4ca9-b627-0028aa939fe6")
+		)
+		(pin "1"
+			(uuid "1aeb89b0-f899-41f0-b0c5-deb532281ca5")
+		)
+		(pin "6"
+			(uuid "65e9f1d4-2e88-48ef-ac90-3495fdcb06b4")
+		)
+		(pin "7"
+			(uuid "dc283a1c-f1dc-44e9-ae7e-4fa9c8fead21")
+		)
+		(pin "4"
+			(uuid "859af769-fbf9-4191-b79e-77efab8ad107")
+		)
+		(pin "5"
+			(uuid "9b9940cb-e3c2-4165-b556-86d17d5badd4")
+		)
+		(pin "2"
+			(uuid "9134c66f-3789-46fe-a20f-0dea6b7fdd23")
+		)
+		(pin "8"
+			(uuid "1103e6de-fde5-4a1c-b1ca-83c5efb24c2b")
+		)
+		(instances
+			(project ""
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 54.61 49.53 270)
 		(mirror x)
@@ -5330,6 +5811,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NJM4580")
+		(at 68.58 146.05 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41356c99-68d3-4976-9a81-808275f71e6d")
+		(property "Reference" "U2"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM4580"
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62e8a830-9b9a-4a35-a4f9-d60e51609e45")
+		)
+		(pin "7"
+			(uuid "796589b4-b44e-45f5-b851-55c8ad00c46e")
+		)
+		(pin "1"
+			(uuid "d2d7ab6d-d330-42b7-be85-eb36b338aa2a")
+		)
+		(pin "5"
+			(uuid "443a5a01-d7d8-4469-a49a-3010507dba6d")
+		)
+		(pin "4"
+			(uuid "dc28f156-83e6-4aa0-8715-385733b0beab")
+		)
+		(pin "8"
+			(uuid "91484a85-c44d-4182-8a8a-995936d15b67")
+		)
+		(pin "6"
+			(uuid "2587b6dd-46ab-43ad-a81a-7b0b01b495e6")
+		)
+		(pin "3"
+			(uuid "e622c4e5-7d53-49c2-9c18-38151212255b")
+		)
+		(instances
+			(project ""
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42640562-900f-490b-9071-40831818f1f5")
+		(property "Reference" "#PWR032"
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf5e1d2-b107-4633-a68a-27d0f799d9cb")
+		)
+		(instances
+			(project "EQ"
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 40.64 90)
 		(unit 1)
@@ -5391,6 +6025,74 @@
 			(project "EQ"
 				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47991e20-f1e4-4f2e-8c9e-0dee45fcac49")
+		(property "Reference" "R17"
+			(at 20.32 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 24.638 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6230ec31-8819-4adc-9392-785e28e687e9")
+		)
+		(pin "2"
+			(uuid "554aebc3-6c59-48b9-9222-8fdeff3d30d7")
+		)
+		(instances
+			(project "EQ"
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5462,6 +6164,73 @@
 			(project "EQ"
 				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515bd718-78db-4e5c-a50b-1437e4003f91")
+		(property "Reference" "#PWR033"
+			(at 22.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0716887c-6de5-459f-aa24-29c15c4bf4bf")
+		)
+		(instances
+			(project "EQ"
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6130,6 +6899,73 @@
 			(project "EQ"
 				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 22.86 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e09cac-9645-4f6e-be40-2e743fa14ef6")
+		(property "Reference" "#PWR034"
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 26.67 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b3a8f56-cc8d-47ea-9ead-d5a29bbb0e4e")
+		)
+		(instances
+			(project ""
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7823,6 +8659,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NJM4580")
+		(at 52.07 146.05 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd1ae491-cc9d-423a-bfea-d079f4c72866")
+		(property "Reference" "U2"
+			(at 50.8 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NJM4580"
+			(at 50.8 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ab74976c-6246-4d69-a6ec-784aa5a6a146")
+		)
+		(pin "2"
+			(uuid "2bef4480-04c6-4d4d-8876-f02921a62a5d")
+		)
+		(pin "3"
+			(uuid "473b8111-588f-4c8e-ae66-17e6801260f0")
+		)
+		(pin "5"
+			(uuid "79e47a13-6d56-4e79-95a5-bc6eabc8fa9a")
+		)
+		(pin "6"
+			(uuid "40591b3e-fb05-4bf9-8047-1d7505e8e70a")
+		)
+		(pin "7"
+			(uuid "bd6a25ac-85bd-4583-a51e-b2792bec900a")
+		)
+		(pin "1"
+			(uuid "8c40664a-8f3e-4b01-9fad-0ef9239e6938")
+		)
+		(pin "4"
+			(uuid "3fb2df8a-ec61-4cbf-a2fd-d376ef24bc31")
+		)
+		(instances
+			(project ""
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 246.38 29.21 90)
 		(unit 1)
@@ -8746,6 +9670,74 @@
 			(project "EQ"
 				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbda3bd5-d706-4c4d-b0c7-01b7c450be4c")
+		(property "Reference" "R18"
+			(at 20.32 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 24.638 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bf57d6-9b48-4d46-b547-a388f80626ba")
+		)
+		(pin "2"
+			(uuid "d31dc530-0ba5-4287-93df-ccddf169616e")
+		)
+		(instances
+			(project "EQ"
+				(path "/7ed0bceb-7fe9-4b5e-902c-b5a7de356216"
+					(reference "R18")
 					(unit 1)
 				)
 			)
